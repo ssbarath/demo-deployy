@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng b --prod --base-href https://ssbarath.github.io/demo-deployy/ && angular-cli-ghpages --branch gh-pages" 
+    "deploy": "ng b --prod --base-href https://ssbarath.github.io/demo-deployy/ && npx ngh --dir=dist/deploy-demo" 
   },
   "private": true,
   "dependencies": {
